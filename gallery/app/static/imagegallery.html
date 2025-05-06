@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header>
+    <h1>INTERACTIVE IMAGE GALLERY</h1>
+  </header>
+  <main>
+    <section class="gallery">
+      <div class="photo-item" data-title="AMG">
+        <img src="amg.jpg" alt="AMG">
+      </div>
+      <div class="photo-item" data-title="BNW">
+        <img src="bnw.jpg" alt="BNW">
+      </div>
+      <div class="photo-item" data-title="MUSTANG">
+        <img src="mustang.jpg" alt="MUSTANG">
+      </div>
+      <div class="photo-item" data-title="BUGATTI">
+        <img src="bugatti.jpg" alt="BUGATTI">
+      </div>
+      <div class="photo-item" data-title="SKYLINE">
+        <img src="skyline.jpg" alt="SKYLINE">
+      </div>
+      <div class="photo-item" data-title="SUPRA">
+        <img src="supra.jpg" alt="SUPRA">
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Large View">
+  </div>
+  <script src="gallery.js"></script>
+</body>
+</html>
