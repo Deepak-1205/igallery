@@ -178,5 +178,11 @@ function filterImages() {
 
 ## OUTPUT:
 
+![img 1](https://github.com/user-attachments/assets/d738822e-a45e-4221-a6c8-c6ae1726ee30)
+![img 2](https://github.com/user-attachments/assets/242513d5-aeaa-448c-bf87-4096461ab196)
+
+
+
+
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
